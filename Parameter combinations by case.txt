@@ -1,0 +1,98 @@
+No tumor
+========
+
+Case 1
+======
+>> proximal_gradient_implement
+Best parameter set based on PSNR: lambda = 1.00, alpha = 0.00, num_iter = 1000
+Best parameter set based on SSIM: lambda = 1.00, alpha = 0.00, num_iter = 1000
+PSNR = 19.8158
+SSIM = 0.29492
+
+
+>> ADMM_Implement
+Best parameter set based on PSNR: lambda = 1.00, rho = 0.00, num_iter = 1000
+Best parameter set based on SSIM: lambda = 10.00, rho = 0.01, num_iter = 1000
+PSNR = 21.0605
+SSIM = 0.31481
+
+
+Case 2
+======
+>> proximal_gradient_implement
+Best parameter set based on PSNR: lambda = 1.00, alpha = 0.00, num_iter = 1000
+Best parameter set based on SSIM: lambda = 1.00, alpha = 0.00, num_iter = 1000
+PSNR = 19.8846
+SSIM = 0.39103
+
+ADMM_Implement
+Best parameter set based on PSNR: lambda = 1.00, rho = 0.00, num_iter = 1000
+Best parameter set based on SSIM: lambda = 100.00, rho = 0.01, num_iter = 1000
+PSNR = 20.7243
+SSIM = 0.40889
+
+Case 3
+=====
+>> proximal_gradient_implement
+Best parameter set based on PSNR: lambda = 1.00, alpha = 0.00, num_iter = 1000
+Best parameter set based on SSIM: lambda = 1.00, alpha = 0.00, num_iter = 1000
+PSNR = 19.8923
+SSIM = 0.47948
+
+
+>> ADMM_Implement
+Best parameter set based on PSNR: lambda = 1.00, rho = 0.00, num_iter = 1000
+Best parameter set based on SSIM: lambda = 100.00, rho = 0.01, num_iter = 1000
+PSNR = 20.4043
+SSIM = 0.49508
+
+
+Tumor Yes
+==========
+
+Case 1
+======
+
+>> proximal_gradient_implement
+Best parameter set based on PSNR: lambda = 1.00, alpha = 0.00, num_iter = 1000
+Best parameter set based on SSIM: lambda = 1.00, alpha = 0.00, num_iter = 1000
+PSNR = 19.8408
+SSIM = 0.33795
+
+
+>> ADMM_Implement
+Best parameter set based on PSNR: lambda = 1.00, rho = 0.00, num_iter = 1000
+Best parameter set based on SSIM: lambda = 100.00, rho = 0.01, num_iter = 1000
+PSNR = 21.085
+SSIM = 0.38091
+
+
+Case 2
+======
+>> proximal_gradient_implement
+Best parameter set based on PSNR: lambda = 1.00, alpha = 0.00, num_iter = 1000
+Best parameter set based on SSIM: lambda = 1.00, alpha = 0.00, num_iter = 1000
+PSNR = 19.878
+SSIM = 0.34737
+
+>> ADMM_Implement
+Best parameter set based on PSNR: lambda = 1.00, rho = 0.00, num_iter = 1000
+Best parameter set based on SSIM: lambda = 100.00, rho = 0.01, num_iter = 1000
+PSNR = 20.8352
+SSIM = 0.36628
+
+
+Case 3
+=======
+
+>> proximal_gradient_implement
+Best parameter set based on PSNR: lambda = 1.00, alpha = 0.00, num_iter = 1000
+Best parameter set based on SSIM: lambda = 1.00, alpha = 0.00, num_iter = 1000
+PSNR = 19.8428
+SSIM = 0.40385
+
+>> ADMM_Implement
+Best parameter set based on PSNR: lambda = 1.00, rho = 0.00, num_iter = 1000
+Best parameter set based on SSIM: lambda = 100.00, rho = 0.01, num_iter = 1000
+PSNR = 21.0298
+SSIM = 0.41555
